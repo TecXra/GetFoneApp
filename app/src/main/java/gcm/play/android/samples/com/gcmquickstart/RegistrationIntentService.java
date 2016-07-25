@@ -109,7 +109,7 @@ public class RegistrationIntentService extends IntentService {
             HttpPost httppost = new HttpPost(QuickstartPreferences.SERVER_HOST + QuickstartPreferences.URL_Token_Update);
 
             List<NameValuePair> formparams = new ArrayList<NameValuePair>();
-            formparams.add(new BasicNameValuePair("id", id));
+            formparams.add(new BasicNameValuePair("id", "1"));
             formparams.add(new BasicNameValuePair("token", token));
 
             httppost.setEntity(new UrlEncodedFormEntity(formparams));

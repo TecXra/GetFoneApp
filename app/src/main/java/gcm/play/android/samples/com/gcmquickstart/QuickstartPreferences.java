@@ -37,7 +37,7 @@ public class QuickstartPreferences implements AsyncResponse {
     public static final String REGISTRATION_COMPLETE = "registrationComplete";
     public static final String Token = "Token";
 
-    public static final String SERVER_HOST = "http://192.168.10.2";
+    public static final String SERVER_HOST = "http://192.168.8.100";
     public static final String URL_PATH = "/cloud";
     public static final String URL_Send_Receivevd_SMS = "/storerecieveconversation";
 
